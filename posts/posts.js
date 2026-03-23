@@ -11,13 +11,13 @@ window.POSTS = [
     date: "2026-03-23",
     description: "Bienvenido a mi espacio personal, un blog dedicado al desarrollo de software, el modding y la creación digital.",
     tags: ["bienvenida","noticia","proyectos","mods","youtube"],
-    content: `<strong>B</strong>ienvenido a mi espacio personal, un blog dedicado al desarrollo de software, el modding y la creación digital.
+    content: `<p><strong>B</strong>ienvenido a mi espacio personal, un blog dedicado al desarrollo de software, el modding y la creación digital.</p>
 
-Este sitio tiene como objetivo compartir mis proyectos, principalmente mods, junto con ideas, aprendizajes y procesos reales de desarrollo. Más allá de mostrar resultados finales, me interesa documentar cómo surgen las ideas, cómo se implementan y qué desafíos aparecen en el camino.
+<p>Este sitio tiene como objetivo compartir mis proyectos, principalmente mods, junto con ideas, aprendizajes y procesos reales de desarrollo. Más allá de mostrar resultados finales, me interesa documentar cómo surgen las ideas, cómo se implementan y qué desafíos aparecen en el camino.</p>
 
-Uno de los enfoques principales del contenido es el desarrollo de mods para Stardew Valley. A través de estos proyectos, exploro nuevas mecánicas, mejoras de calidad de vida y formas de enriquecer la experiencia del jugador, combinando programación, diseño y creatividad.
+<p>Uno de los enfoques principales del contenido es el desarrollo de mods para Stardew Valley. A través de estos proyectos, exploro nuevas mecánicas, mejoras de calidad de vida y formas de enriquecer la experiencia del jugador, combinando programación, diseño y creatividad.</p>
 
-En este blog vas a encontrar no solo proyectos terminados, sino también guías, pruebas y reflexiones técnicas que pueden resultar útiles para otros desarrolladores o personas interesadas en el modding.
+<p>En este blog vas a encontrar no solo proyectos terminados, sino también guías, pruebas y reflexiones técnicas que pueden resultar útiles para otros desarrolladores o personas interesadas en el modding.</p>
 
 <h2>Mods publicados:</h2>
 
