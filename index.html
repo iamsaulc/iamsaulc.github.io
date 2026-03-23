@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IamSaulC - Blog</title>
+  <meta name="description" content="Un blog estático moderno.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog">
+  <link rel="stylesheet" href="assets/style.css">
+  <!--
+    Static Blog System
+    Copyright (C) 2025 IamSaulC <https://github.com/iamsaulc>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+  -->
+  <script src="assets/theme.js"></script>
+  <script src="https://kit.fontawesome.com/1c8ea8e38e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header injected by assets/layout.js -->
+  <div id="site-header"></div>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Proyectos, guías<br>e <em>ideas</em></h1>
+      <p>Proyectos reales, ideas en proceso y guías prácticas.</p>
+    </section>
+
+    <!-- Search bar -->
+    <div class="search-bar">
+      <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="search" id="search-input" placeholder="Buscar posts por título, contenido o tag…" autocomplete="off">
+    </div>
+
+    <!-- Tag filter bar — populated by app.js -->
+    <div id="tag-bar" class="tag-bar" role="group" aria-label="Filtrar por etiqueta"></div>
+
+    <!-- Results counter -->
+    <p id="results-count" class="results-count"></p>
+
+    <!-- Post list — populated by app.js -->
+    <div id="posts-list" role="feed" aria-label="Artículos"></div>
+
+    <!-- Pagination controls — populated by app.js -->
+    <nav id="pagination" class="pagination" aria-label="Páginas"></nav>
+  </main>
+
+  <!-- Footer injected by assets/layout.js -->
+  <div id="site-footer"></div>
+
+  <script src="assets/layout.js"></script>
+  <script src="posts/posts.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

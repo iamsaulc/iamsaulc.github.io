@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Página no encontrada</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- theme.js must be in <head> to apply theme before render and avoid flash -->
+  <script src="assets/theme.js"></script>
+  <script src="https://kit.fontawesome.com/1c8ea8e38e.js" crossorigin="anonymous"></script>
+  <style>
+    .not-found {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 1.5rem;
+      gap: 1rem;
+    }
+    .not-found-code {
+      font-family: var(--serif);
+      font-size: clamp(6rem, 20vw, 10rem);
+      font-weight: 700;
+      line-height: 1;
+      color: var(--accent);
+      opacity: .2;
+      letter-spacing: -0.04em;
+      user-select: none;
+    }
+    .not-found h1 {
+      font-family: var(--serif);
+      font-size: clamp(1.4rem, 4vw, 2rem);
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .not-found p {
+      color: var(--muted);
+      font-size: .95rem;
+      max-width: 340px;
+      line-height: 1.7;
+    }
+    .not-found-btns {
+      display: flex;
+      gap: .7rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: .4rem;
+    }
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .6rem 1.4rem;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: var(--r);
+      font-size: .88rem;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: background var(--ease);
+      font-family: var(--sans);
+    }
+    .btn-home:hover { background: var(--accent-h); }
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      padding: .6rem 1.4rem;
+      background: transparent;
+      color: var(--muted);
+      border-radius: var(--r);
+      font-size: .88rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: color var(--ease), border-color var(--ease);
+      font-family: var(--sans);
+    }
+    .btn-back:hover { color: var(--ink); border-color: var(--muted); }
+  </style>
+</head>
+<body>
+
+  <!-- Header injected by assets/layout.js -->
+  <div id="site-header"></div>
+
+  <main style="display:flex;flex:1">
+    <div class="not-found">
+      <div class="not-found-code">404</div>
+      <h1>Página no encontrada</h1>
+      <p>La página que buscás no existe, fue movida o el link está roto.</p>
+      <div class="not-found-btns">
+        <a href="index.html" class="btn-home">← Ir al inicio</a>
+        <button class="btn-back" onclick="history.back()">Volver atrás</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer injected by assets/layout.js -->
+  <div id="site-footer"></div>
+
+  <script src="assets/layout.js"></script>
+</body>
+</html>

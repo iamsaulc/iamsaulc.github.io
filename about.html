@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí — IamSaulC</title>
+  <meta name="description" content="Quién escribe este blog y por qué.">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://kit.fontawesome.com/1c8ea8e38e.js" crossorigin="anonymous"></script>
+  <script src="assets/theme.js"></script>
+  <style>
+    /* ── Avatar ── */
+    .about-hero {
+      padding: 3.5rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: var(--accent2);
+      border: 3px solid var(--accent);
+      flex-shrink: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-intro h1 {
+      font-family: var(--serif);
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.4rem;
+      color: var(--ink);
+    }
+
+    .about-intro .tagline {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* ── Contenido ── */
+    .about-body {
+      max-width: var(--max);
+    }
+
+    .about-body h2 {
+      font-family: var(--serif);
+      font-size: 1.35rem;
+      letter-spacing: -0.01em;
+      margin: 2rem 0 0.6rem;
+      color: var(--ink);
+    }
+
+    .about-body p {
+      color: var(--ink);
+      line-height: 1.8;
+      margin-bottom: 1.1rem;
+      font-size: 1rem;
+    }
+
+    .about-body a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .about-body a:hover { color: var(--accent-h); text-decoration: none; }
+
+    /* ── Skills/chips ── */
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin: 0.6rem 0 1.2rem;
+    }
+
+    .skill {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      padding: 0.3em 0.7em;
+      background: var(--accent2);
+      color: var(--accent-h);
+      border-radius: var(--r);
+      font-weight: 500;
+    }
+
+    /* ── Links sociales ── */
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 0.5rem;
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.5rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: color var(--ease), border-color var(--ease), background var(--ease);
+    }
+
+    .social-link:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--accent2);
+    }
+
+    @media (max-width: 480px) {
+      .about-hero { flex-direction: column; text-align: center; gap: 1.2rem; }
+      .social-links { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header injected by assets/layout.js -->
+  <div id="site-header"></div>
+
+  <main class="wrap">
+
+    <!-- ══ EDIT THIS SECTION WITH YOUR OWN DATA ══ -->
+
+    <div class="about-hero">
+      <div class="avatar"><img src="img/avatar.jpg" alt="Your name"></div>
+      <div class="about-intro">
+        <h1>Hola, soy<br>IamSaulC</h1>
+        <p class="tagline">Desarrollador · Youtuber</p>
+      </div>
+    </div>
+
+    <div class="about-body">
+
+      <h2>¿Quién soy?</h2>
+<p>Soy Saúl, desarrollador argentino y entusiasta del mundo del software y la creación digital. Me apasiona construir cosas, entender cómo funcionan y llevar ideas desde un concepto hasta algo tangible.</p>
+
+<p>Trabajo con tecnologías como C#, C++, HTML, CSS y Bash, y encuentro especial disfrute en el desarrollo de modificaciones, particularmente para Stardew Valley. El modding es, para mí, una forma de expresión: una mezcla de creatividad, diseño y programación donde cada detalle cuenta y cada cambio puede transformar la experiencia del jugador.</p>
+
+<p>Cuento con una tecnicatura en diseño de videojuegos y programación, lo que me permitió desarrollar una base sólida tanto a nivel técnico como creativo. A lo largo del tiempo, fui perfeccionando mis habilidades a través de proyectos propios, exploración constante y aprendizaje autodidacta.</p>
+
+<p>Además, soy un apasionado de Linux y del ecosistema open source. Disfruto trabajar en entornos donde tengo control, flexibilidad y la posibilidad de entender realmente lo que sucede detrás de escena.</p>
+
+<p>Este blog es mi espacio para compartir proyectos, ideas, aprendizajes y todo aquello que voy descubriendo en el camino.</p>
+
+      <h2>Tecnologías que uso</h2>
+      <div class="skill-list">
+        <span class="skill">Linux</span>
+        <span class="skill">HTML / CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Git</span>
+        <span class="skill">Bash</span>
+        <span class="skill">C#</span>
+        <span class="skill">C++</span>
+        <!-- Add or remove skills as needed -->
+      </div>
+
+      <h2>Dónde encontrarme</h2>
+      <div class="social-links">
+        <a href="https://github.com/iamsaulc" class="social-link" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i>GitHub
+        </a>
+        <a href="https://www.nexusmods.com/profile/iamsaulc" class="social-link" target="_blank" rel="noopener">
+          <i class="fa-solid fa-code"></i>Nexus
+        </a>
+        <a href="https://www.youtube.com/@gnulinuxbp" class="social-link" target="_blank" rel="noopener">
+          <i class="fa-brands fa-youtube"></i>Youtube
+        </a>
+        <!-- Add more social links if needed -->
+      </div>
+
+    </div>
+    <!-- ══ END OF EDITABLE SECTION ══ -->
+
+  </main>
+
+  <!-- Footer injected by assets/layout.js -->
+  <div id="site-footer"></div>
+
+  <script src="assets/layout.js"></script>
+</body>
+</html>
