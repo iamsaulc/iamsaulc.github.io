@@ -6,6 +6,71 @@
 window.POSTS = [
 
   {
+    id: "new-escape-rope-un-mod-para-mejorar-la-exploracion-en-starde",
+    title: "New Escape Rope: un mod para mejorar la exploración en Stardew Valley",
+    date: "2026-03-25",
+    description: "New Escape Rope es un mod para Stardew Valley enfocado en mejorar la experiencia dentro de las minas, ofreciendo mayor control al jugador sin romper el equilibrio del juego.",
+    tags: ["stardew valley","mod","AGPL","smapi"],
+    content: `<p style="text-align:center">
+  <img src="img/NewEscapeRope.jpg" alt="NewEscapeRope">
+</p>
+
+<p>New Escape Rope introduce dos nuevos objetos funcionales que amplían las posibilidades de exploración:</p>
+
+<h2>Escape Rope</h2>
+<p>
+  Permite salir instantáneamente de las minas, Skull Cavern o el volcán. Es una herramienta ideal para situaciones de riesgo o cuando simplemente querés optimizar tu tiempo.
+</p>
+
+<h2>Floor Rope</h2>
+<p>
+  Permite subir un piso dentro de las minas, algo que no existe en el juego base. Esto resulta especialmente útil si cometiste un error, olvidaste algo en el nivel anterior o bajaste por accidente.
+
+</p>
+<p>
+Ambos objetos están integrados de forma natural en el juego, ya que pueden comprarse al Enano dentro de las minas, respetando la progresión original.
+</p>
+
+<h2>Enfoque técnico</h2>
+<p>
+  El mod está dividido en dos partes bien definidas:
+</p>
+<p>
+  Content Patcher: encargado de añadir los objetos al juego.
+</p>
+<p>
+Código en C# (SMAPI): responsable de toda la lógica de funcionamiento, como el uso de los ítems, animaciones, efectos y condiciones de uso.
+</p>
+
+<h2>Inspiración
+</h2>
+<p>
+  El mod está inspirado en el clásico objeto “Escape Rope” de Pokémon, adaptado al contexto de Stardew Valley para aportar nuevas mecánicas sin alterar la esencia del juego.
+</p>
+
+<h2>Licencia</h2>
+
+<p>
+  New Escape Rope está distribuido bajo la licencia GNU Affero General Public License v3.0 (AGPL-3.0-or-later).
+</p>
+<p>
+  Esto significa que:
+</p>
+
+<ul>
+  <li>El código fuente está disponible públicamente.
+</li>
+  <li>Se permite el uso, modificación y redistribución del mod.</li>
+  <li>Cualquier versión modificada que se distribuya también debe mantener la misma licencia.</li>
+  <li>Si el mod se utiliza como base para otros proyectos, estos deben respetar los términos de la AGPL.</li>
+</ul>
+
+<p style="text-align:center">
+  <strong><a href="https://www.nexusmods.com/stardewvalley/mods/44185" target="_blank" rel="noopener">Descargar Mod</a> - <a href="https://github.com/iamsaulc/NewEscapeRope" target="_blank" rel="noopener">Descargar código fuente</a></strong>
+</p>`
+  },
+
+  {
     id: "bienvenido-a-mi-blog-de-desarrollo-y-modding",
     title: "Bienvenido a mi blog de desarrollo y modding",
     date: "2026-03-23",
