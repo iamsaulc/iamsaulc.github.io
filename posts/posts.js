@@ -6,6 +6,45 @@
 window.POSTS = [
 
   {
+    id: "mods-actualizados-cave-of-chaos-y-quality-tricks",
+    title: "Mods Actualizados: Cave of Chaos y Quality Tricks",
+    date: "2026-04-02",
+    description: "Se actualizaron los mods  Cave of Chaos y Quality Tricks con correcciones de bugs e implementaron nuevas funcionalidades",
+    tags: ["smapi","stardew valley","cave of chaos","quality tricks"],
+    content: `<p>
+  He publicado una nueva actualización de dos de mis mods: <strong>Cave of Chaos</strong> y <strong>Quality Tricks</strong>. En esta versión, el enfoque está puesto en mejorar la estabilidad, optimizar el rendimiento y reforzar la compatibilidad con otros mods populares.
+</p>
+<p>
+  A continuación, detallo los cambios más importantes en cada uno.
+</p>
+<h1>Actualización de Cave of Chaos</h1>
+<p>
+  <em>Esta actualización se centra en ajustes menores que mejoran la experiencia general dentro del mod.
+</em>
+</p>
+<h4>Cambios realizados</h4>
+<ul>
+  <li>Se implementaron correcciones menores en varios mapas.</li>
+</ul>
+<p>
+  Si bien no introduce nuevas funcionalidades, esta actualización mejora la consistencia y calidad del entorno de juego.
+</p>
+<h1>Actualización de Quality Tricks</h1>
+<p>
+  En el caso de Quality Tricks, esta versión incluye mejoras más significativas, especialmente en compatibilidad y optimización interna.
+</p>
+<h4>Novedades principales</h4>
+
+<ul>
+  <li>Se añadió el comando qtdebug, actualmente en desarrollo. Aunque aún no está completamente finalizado, ya permite realizar pruebas y tareas de depuración.</li>
+  <li>Se mejoró la compatibilidad con Automate, logrando una integración más estable.</li>
+  <li>Se optimizó la compatibilidad con PFM y PFMAutomate.</li>
+  <li>Se corrigieron múltiples errores, incluyendo un problema que ocurría cuando el inventario estaba lleno al intentar recoger un producto terminado.</li>
+  <li>Se mejoró la detección del uso de Fairy Dust</li>
+</ul>`
+  },
+
+  {
     id: "new-escape-rope-un-mod-para-mejorar-la-exploracion-en-starde",
     title: "New Escape Rope: un mod para mejorar la exploración en Stardew Valley",
     date: "2026-03-25",
